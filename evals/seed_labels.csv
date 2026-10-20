@@ -1,0 +1,51 @@
+id,instruction,category,priority,notes
+req-0001,checking ETA of order {{Order Number}},orders_shipping,normal,
+req-0002,"I expect a refund of {{Currency Symbol}}{{Refund Amount}}, has it been processed?",refunds_compensation,urgent,Money owed to customer
+req-0003,I do not know how to subscribe to the corporate newsletter,newsletter,low,
+req-0004,I want assistance to submit my feedback for a product,feedback,low,
+req-0005,i have to correct order {{Order Number}},orders_shipping,normal,Time-sensitive if not yet shipped
+req-0006,where can I see when my damn package is going to arrive?,orders_shipping,urgent,Frustrated tone bumps normal to urgent
+req-0007,can you help me to send some feedback for a product?,feedback,low,
+req-0008,i dont know what i have to do to contact a person,contact_human,normal,
+req-0009,I do not know what I need to do to locate order {{Order Number}},orders_shipping,normal,
+req-0010,assistance to cancel my corporate newsletter subscription,newsletter,low,
+req-0011,is it possible to buy some items?,orders_shipping,normal,Purchase intent; potential sale
+req-0012,I don't know how I can check the cancellation fee,billing_payments,low,Policy question
+req-0013,I try to set up the ddelivery address,orders_shipping,normal,Typo in input
+req-0014,can you help me correcting purchase {{Order Number}}?,orders_shipping,normal,
+req-0015,I do not know what to do to call customer service,contact_human,normal,
+req-0016,i want help leaving feedback about a service,feedback,low,
+req-0017,"I cannot open an account, how to report a sign-up issue?",account,urgent,Blocked from signing up
+req-0018,I need support trying to edit my shipping address,orders_shipping,normal,
+req-0019,I need help acquiringv several of your item,orders_shipping,normal,Purchase intent; typo in input
+req-0020,will you show me at what time I can reach customer service?,contact_human,low,Hours question only
+req-0021,need to set my new shipping address up,orders_shipping,normal,
+req-0022,can you tell me about the subscription to your newsletter?,newsletter,low,
+req-0023,I don't know how to chat with an agent,contact_human,normal,
+req-0024,I need help to check the early termination fee,billing_payments,low,Policy question
+req-0025,want help checking when will my product arrive,orders_shipping,normal,
+req-0026,how do I inform of a trouble with payments?,billing_payments,urgent,Payment problem may block purchase
+req-0027,could you help me retrieving my user profile PIN code?,account,urgent,Locked out of account
+req-0028,where do I correct my address?,orders_shipping,normal,Ambiguous: shipping or profile address
+req-0029,help me see your azllowed payment modalities,billing_payments,low,Typo in input
+req-0030,I want assistance switching to the standard account,account,normal,
+req-0031,help me see how soon can I expect the package,orders_shipping,normal,
+req-0032,I want help checking in what cases can I request a refund,refunds_compensation,low,Policy question
+req-0033,I have got to change my personal information,account,normal,
+req-0034,how do i use the {{Account Type}} account,account,low,How-to question
+req-0035,where can i get the invoice #12588,billing_payments,normal,"Real invoice number, not a placeholder"
+req-0036,I don't know how to get compensations,refunds_compensation,low,How-to; may hide a grievance
+req-0037,"you are not helpful, how to chat with an agent?",contact_human,urgent,Frustrated and asking for a human
+req-0038,i want assistance requesting reimbursements,refunds_compensation,normal,Starting a claim
+req-0039,editing info on premium account,account,normal,
+req-0040,where to see the methods for shipment,orders_shipping,low,Info only
+req-0041,"I have to check the shipping methods, how can I do it?",orders_shipping,low,Info only
+req-0042,i have a problem setting up my secondary shipping address,orders_shipping,normal,
+req-0043,i need assistance to edit the personal details,account,normal,
+req-0044,"I do not use the damn gold account, I am trying to close it",account,urgent,Frustrated tone bumps normal to urgent; churn risk
+req-0045,I want assistance to open a {{Account Category}} account for my fiance,account,normal,On behalf of another person; consent check
+req-0046,want help closing a {{Account Category}} account,account,normal,Churn risk
+req-0047,help me to sign up to the corporate newsletter,newsletter,low,
+req-0048,i expect a compensation of {{Refund Amount}} dollars,refunds_compensation,urgent,Money claimed by customer
+req-0049,I want help to create a platinum account for my fiance,account,normal,On behalf of another person; consent check
+req-0050,I need assistance to recover the PIN code of my account,account,urgent,Locked out of account
